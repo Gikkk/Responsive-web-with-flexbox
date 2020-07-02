@@ -1,0 +1,88 @@
+main{
+    padding-top:  32px;
+}
+
+.background{
+    background: url("../img/plans-background.jpg");
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.package{
+    width: 80%;
+    margin: 16px 0;
+    border: 3px solid darkgreen;
+    border-left: none; 
+    position: relative;
+}
+
+.package:hover,
+.package:active{
+    box-shadow: 2px 2px 4px rgb(73, 71, 71);
+    border-color: darkred;
+}
+.package a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    pad: 32px;
+    margin: 20px;
+}
+
+.package__badge{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    font-size: 14px;
+    color: white;
+    background: darkgreen;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+.package__subtitle{
+    color: rgb(75, 70, 70)
+}
+
+.package__info{
+    padding: 16px;
+    border: 1px solid darkgreen;
+    font-size: 20px;
+    color: darkgreen;
+    background: white;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#plus{
+    background: rgb(85, 207, 197);
+}
+
+#free{
+    background: rgb(153, 177, 214);
+    float: right;
+    border-right: none;
+    border-left: 3px solid darkgreen;
+}
+
+#free:hover,
+#free:active{
+    border-left-color: darkred;
+}
+
+#premium{
+    background: rgb(198, 154, 204);
+}
+
+#premium .package__title{
+    color: rgb(11, 81, 102);
+}
+
+#premium .package__subtitle{
+    color: rgb(72, 77, 31);
+}
