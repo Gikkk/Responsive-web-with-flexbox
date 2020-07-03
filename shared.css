@@ -8,11 +8,12 @@ body {
 }
 
 .main-header{
-    background: greenyellow;
+    background: rgb(104, 170, 5);
     padding: 10px 20px;
     width: 100%;
     position: fixed;
     z-index: 1;
+    border: 2px solid rgb(141, 211, 196);
 }
 
 #simple{
@@ -29,6 +30,11 @@ body {
     color: rgb(0, 40, 100);
     font-weight: bold;
     font-size: 20px;
+    display: inline-block;
+}
+
+.main-header__brand img{
+    height: 30px;
 }
 
 .main-nav{
