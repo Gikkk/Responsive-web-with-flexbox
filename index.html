@@ -8,27 +8,28 @@
     <link rel="shortcut icon" href="./img/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="./shared.css">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
+    <div class="backdrop"></div>
     <header class="main-header">
         <div>
-            <a href="#" class="main-header__brand">
-                <img src="./img/uhost-icon.png" alt="uHost - Your favorite hosting company">
+            <a href="index.html" class="main-header__brand">
+                <img src="img/uhost-icon.png" alt="uHost - Your favorite hosting company">
             </a>
         </div>
         <nav class="main-nav">
             <ul class="main-nav__items">
                 <li class="main-nav__item">
-                    <a href="packages/packages.html">Packages</a>
+                    <a href="packages/index.html">Packages</a>
                 </li>
                 <li class="main-nav__item">
-                    <a href="./customers/customers.html">Customers</a>
-                </li >
-                <li class="main-nav__item main--nav__item--cta">
-                    <a href="./start-hosting/hosting.html">Start Hosting</a>
+                    <a href="customers/index.html">Customers</a>
+                </li>
+                <li class="main-nav__item main-nav__item--cta">
+                    <a href="start-hosting/index.html">Start Hosting</a>
                 </li>
             </ul>
         </nav>
@@ -55,9 +56,9 @@
                     </div>
                 </article>
                 <article class="plan plan--highlighted">
-                    <h1 class="plan__subtitle">RECOMMENDED</h1>
+                    <h1 class="plan__annotation">RECOMMENDED</h1>
                     <h1 class="plan__title">PLUS</h1>
-                    <h2  class="plan__price">$29/month</h2>
+                    <h2 class="plan__price">$29/month</h2>
                     <h3>For ambitious projects.</h3>
                     <ul class="plan__features">
                         <li class="plan__feature">5 Workspaces</li>
@@ -178,9 +179,9 @@
                             <path style="fill:#56677E;" d="M432,248c-17.645,0-32-14.355-32-32c0-6.783,2.128-13.076,5.742-18.258  C397.444,203.53,392,213.138,392,224c0,17.645,14.355,32,32,32c10.862,0,20.471-5.444,26.258-13.742  C445.076,245.872,438.783,248,432,248z"
                             />
 
-                        </svg>                        
+                        </svg>
                     </div>
-                    <p class="key-feature__desc">3,857,000 Trusting Customers</p>
+                    <p class="key-feature__description">3,857,000 Trusting Customers</p>
                 </li>
                 <li class="key-feature">
                     <div class="key-feature__image">
@@ -230,7 +231,7 @@
                             </g>
                         </svg>
                     </div>
-                    <p class="key-feature__desc">99.999% Uptime Guarantee</p>
+                    <p class="key-feature__description">99.999% Uptime Guarantee</p>
                 </li>
                 <li class="key-feature">
                     <div class="key-feature__image">
@@ -269,24 +270,21 @@
 
                         </svg>
                     </div>
-                    <p class="key-feature__desc">Lightning Fast CDN</p>
+                    <p class="key-feature__description">Lightning Fast CDN</p>
                 </li>
             </ul>
         </section>
     </main>
     <footer class="main-footer">
         <nav>
-            <ul class="main-footer_links">
-                <li class="main-footer_link">
+            <ul class="main-footer__links">
+                <li class="main-footer__link">
                     <a href="#">Support</a>
                 </li>
-                <li class="main-footer_link">
+                <li class="main-footer__link">
                     <a href="#">Terms of Use</a>
                 </li>
             </ul>
-            <!-- <p class="cp-text">
-                &copy Copyright 2020 uHost. All rights reserved.
-            </p> -->
         </nav>
     </footer>
 </body>

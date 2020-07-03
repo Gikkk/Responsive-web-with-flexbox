@@ -1,124 +1,119 @@
 #product-overview {
-    background-image: url("./img/freedom.jpg");
-    background-size: cover;
-    background-position: 0% 20%;
-    background-repeat: no-repeat;
-    background-origin: border-box;
-    width: 100%;
-    height: 528px;
-    padding: 10px;
-    position: relative;
-    top: 44px;
+  background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
+    url("img/freedom.jpg") left 10% bottom 70%/cover no-repeat border-box;
+  width: 100%;
+  height: 50vh;
+  margin-top: 2.75rem;
+  position: relative;
 }
 
 .section-title {
-    color: #2ddf5c;
-    text-align: center;
+  color: #2ddf5c;
+  text-align: center;
 }
 
 #product-overview h1 {
-    color: white;
-    font-family: 'Anton', sans-serif;
-    position: absolute;
-    bottom: 5%;
-    left: 5%;
+  color: white;
+  font-family: "Anton", sans-serif;
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
 }
 
-.plan__list{
-    width: 80%;
-    margin: auto; 
-    text-align: center; 
+.plan__list {
+  width: 80%;
+  margin: auto;
+  text-align: center;
 }
 
-.plan{
-    background: lightgreen;
-    text-align: center;
-    padding: 16px;
-    margin: 8px;
-    display: inline-block;
-    width:  30%;
-    vertical-align: middle;
-    border-radius: 8px;
-    box-shadow: 2px 2px 2px 2px darkslateblue;
+.plan {
+  background: #d5ffdc;
+  text-align: center;
+  padding: 1rem;
+  margin: 0.5rem;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+  border-radius: 8px;
 }
 
-.plan--highlighted{
-    background: darkgreen;
-    color: white;
-    box-shadow: 2px 2px 2px 2px darkslateblue;
+.plan--highlighted {
+  background: #19b84c;
+  color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
-.plan__subtitle{
-    background: white;
-    color: darkgreen;
-    padding: 8px;
-    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.7);
-    border-radius: 8px;
+.plan__annotation {
+  background: white;
+  color: #19b84c;
+  padding: 0.5rem;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
 }
 
-.plan__features{
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.plan__title {
+  color: #0e4f1f;
 }
 
-.plan__title{
-    color: darkgreen;
-}
-
-.plan__price{
-    color:  saddlebrown;
+.plan__price {
+  color: #858585;
 }
 
 .plan--highlighted .plan__title {
-    color: white;
+  color: white;
 }
 
 .plan--highlighted .plan__price {
-    color: rgb(211, 103, 53);
+  color: #0e4f1f;
 }
 
-.plan__feature{
-    margin: 8px 0;
+.plan__features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-#key-features{
-    background: rgb(145, 48, 48);
-    margin-top: 80px;
-    padding: 10px;
+.plan__feature {
+  margin: 0.5rem 0;
 }
 
-#key-features .section-title{
-    color: darkturquoise;
-    margin: 32px;
+#key-features {
+  background: #ff1b68;
+  margin-top: 5rem;
+  padding: 1rem;
 }
 
-.key-feature__list{
-        list-style: none;
-        padding: 0;
-        margin: 0;    
-        text-align: center;    
+#key-features .section-title {
+  color: white;
+  margin: 2rem;
 }
 
-.key-feature{
-    display: inline-block;
-    width: 30%;
-    vertical-align: top;
+.key-feature__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-.key-feature__image{
-    background: white;
-    width: 128px;
-    height: 128px;
-    border: 2px solid rgb(8, 7, 7);
-    border-radius: 50%;
-    margin: auto;
-    padding: 20px;
+.key-feature {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
 }
 
-.key-feature__desc{
-    text-align: center;
-    font-weight: bold;
-    color: white;
-    font-size: 16px;
+.key-feature__image {
+  background: #ffcede;
+  width: 128px;
+  height: 128px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+.key-feature__description {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2rem;
 }
