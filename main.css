@@ -1,15 +1,12 @@
 #product-overview {
   background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
-    url("img/freedom.jpg") left 10% bottom 70%/cover no-repeat border-box;
+    url("img/freedom.jpg") no-repeat border-box;
   width: 100%;
   height: 50vh;
+  background-position: bottom 50%;
+  background-size: cover;
   margin-top: 2.75rem;
   position: relative;
-}
-
-.section-title {
-  color: #2ddf5c;
-  text-align: center;
 }
 
 #product-overview h1 {
@@ -18,11 +15,22 @@
   position: absolute;
   bottom: 5%;
   left: 3%;
+  font-size: 1.6rem;
 }
 
-.plan__list {
-  width: 80%;
-  margin: auto;
+@media (min-width: 40rem) and (min-height: 40rem){
+  #product-overview{
+    height: 40vh;
+    background-position: 50% 25%;
+  }
+
+  #product-overview h1{
+    font-size: 3rem;
+  }
+}
+
+.section-title {
+  color: #2ddf5c;
   text-align: center;
 }
 
@@ -30,17 +38,14 @@
   background: #d5ffdc;
   text-align: center;
   padding: 1rem;
-  margin: 0.5rem;
-  display: inline-block;
-  width: 30%;
-  vertical-align: middle;
+  margin: 0.5rem 0;
+  width: 100%;
   border-radius: 8px;
 }
 
 .plan--highlighted {
   background: #19b84c;
   color: white;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .plan__annotation {
@@ -77,6 +82,25 @@
   margin: 0.5rem 0;
 }
 
+@media (min-width: 40rem) and (orientation: landscape){
+  .plan__list {
+    width: 100%;
+    text-align: center;
+  }
+
+  .plan{
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    min-width: 13rem;
+    max-width: 25rem;
+  }
+
+  .plan--highlighted{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  }
+}
+
 #key-features {
   background: #ff1b68;
   margin-top: 5rem;
@@ -95,12 +119,6 @@
   text-align: center;
 }
 
-.key-feature {
-  display: inline-block;
-  width: 30%;
-  vertical-align: top;
-}
-
 .key-feature__image {
   background: #ffcede;
   width: 128px;
@@ -117,6 +135,15 @@
   color: white;
   font-size: 1.2rem;
 }
+
+@media (min-width: 40rem){
+    .key-feature{
+      display: inline-block;
+      width: 30%;
+      vertical-align: top;
+      max-width: 25rem;
+    }
+  }
 
 .modal {
   position: fixed;
