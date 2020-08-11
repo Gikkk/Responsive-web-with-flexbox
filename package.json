@@ -1,0 +1,23 @@
+{
+  "name": "Responsive-web-with-flexbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gikkk/Responsive-web-with-flexbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gikkk/Responsive-web-with-flexbox/issues"
+  },
+  "homepage": "https://github.com/Gikkk/Responsive-web-with-flexbox#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
